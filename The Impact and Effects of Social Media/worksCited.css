@@ -1,0 +1,33 @@
+#worksCitedContainer h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+#bibentries {
+  list-style-type: none;
+  display: block;
+}
+
+#bibentries a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Open_Sans;
+}
+
+#bibentries li {
+  margin-top: 15px;
+}
+
+#bibentries a:hover {
+  background-color: #13505B;
+  color: lightblue;
+}
+
+#section1 {
+  height: 888px;
+}

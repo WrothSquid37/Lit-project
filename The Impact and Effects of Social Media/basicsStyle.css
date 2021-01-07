@@ -1,0 +1,85 @@
+
+#infoPanelSection1 {
+    background-color: black;
+    height: 650px;
+}
+
+#infoPanelSection1 h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#infoPanelSection2 h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+#infoPanelSection2 {
+  height: 705px;
+}
+
+#infoPanelVideo {
+  float: left;
+}
+
+#video {
+  float: right;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 0px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 350px;
+  box-shadow: 0px 0px 16px white;
+}
+
+.card p {
+  color: white;
+  font-family: 'Open Sans';
+}
+
+.card img {
+  margin-top: 15px;
+  width: 75px;
+}

@@ -1,0 +1,73 @@
+
+/* Menu stylying */
+
+
+@keyframes animateMenuColor {
+  from {color: #ffffff; }
+  to {color: #CB9B15;}
+}
+
+#container {
+  width: 35%;
+  float: left;
+}
+
+#container p {
+  color: white;
+  font-size: 23px;
+  font-family: Open_Sans;
+  margin-left: 20px;
+}
+
+#container h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 6em;
+  margin: 0;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+#topImage {
+  float: right;
+  width: 1100px;
+}
+
+
+#defintionContainer {
+  width:100%;
+}
+
+#defintionContainer h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+#panel2 {
+  height: 278px;
+  color: #D7D9CE;
+}
+
+#tableOfContentsContainer {
+  float: right;
+}
+
+#tableOfContentsContainer h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  float: left;
+  margin-left: 15px;
+}
+
+#tableImage {
+  width: 787px;
+  float: left;
+}

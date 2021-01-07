@@ -1,0 +1,126 @@
+#prosAndConsSection1 {
+  height: 300px;
+}
+
+#prosAndConsSection1 h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+#prosCons {
+  height: 1250px;
+  margin-top: -22px;
+  background-color: #0C7489;
+}
+
+#pros {
+  float: left;
+  width: 49%;
+  border-right: 2px solid white;
+  height: 100%;
+}
+
+#cons {
+  float: right;
+  width: 49%;
+  height: 100%;
+}
+
+
+
+#prosList li {
+  color: white;
+  font-size: 26px;
+  font-family: Open_Sans;
+  text-align: center;
+  margin: 50px 0;
+}
+
+#consList li {
+  color: white;
+  font-size: 26px;
+  font-family: Open_Sans;
+  text-align: center;
+  margin: 50px 0;
+}
+
+#pros h4 {
+  font-family: Gobold;
+  color: white;
+  font-size: 56px;
+  text-align: center;
+
+}
+
+#cons h4 {
+  font-family: Gobold;
+  color: white;
+  font-size: 56px;
+  text-align: center;
+}
+
+.spacer {
+  height: 100%;
+  width: 500px;
+  background: white;
+}
+
+#floatedLeftDangerContainer h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+#floatedLeftDangerContainer p {
+  color: white;
+  font-size: 26px;
+  font-family: Open_Sans;
+  margin-left: 20px;
+}
+
+#floatedLeftDangerContainer {
+  float: left;
+}
+
+#floatedRightVideo {
+  float: right;
+}
+
+#infoPanelSection3 {
+  height: 550px;
+}
+
+#protection {
+  float: right;
+  height: 550px;
+}
+
+#whatCanYouDo {
+  float: left;
+}
+
+#whatCanYouDo h1 {
+  font-family: Gobold;
+  color: #D7D9CE;
+  font-size: 5.5em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+#whatCanYouDo p {
+  color: white;
+  font-size: 26px;
+  font-family: Open_Sans;
+  margin-left: 20px;
+}
